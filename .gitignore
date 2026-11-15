@@ -1,0 +1,26 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# Swift Package Manager / Xcode
+.build/
+.swiftpm/
+DerivedData/
+*.xcodeproj/xcuserdata/
+*.xcworkspace/xcuserdata/
+Package.resolved
+
+# Build output (produced by build.sh / make_dmg.sh)
+build/
+*.app
+*.dmg
+
+# Node (not used, but never commit it)
+node_modules/
+
+# Editors
+.vscode/
+.idea/
+*.swp
